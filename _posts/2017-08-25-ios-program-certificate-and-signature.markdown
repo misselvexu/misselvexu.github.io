@@ -89,16 +89,19 @@ tags:
 
 <br>
 <p>
-/usr/bin/unzip -q xxx.ipa -d <destination>
+/usr/bin/unzip -q xxx.ipa -d path
 </p>
 
 <blockquote>解压后，得到上图的Payload目录，下面是个子目录，其中的内容如下：</blockquote>
 
+<p>
 <li>资源文件，例如图片、html、等等。
 <li>CodeSignature/CodeResources。这是一个plist文件，可用文本查看，其中的内容就是是程序包中（不包括Frameworks）所有文件的签名。注意这里是所有文件。意味着你的程序一旦签名，就不能更改其中任何的东西，包括资源文件和可执行文件本身。iOS系统会检查这些签名。
 <li>可执行文件。此文件跟资源文件一样需要签名。
 <li>一个mobileprovision文件.打包的时候使用的，从MC上生成的。
 <li>Frameworks。程序引用的非系统自带的Frameworks，每个Frameworks其实就是一个app，其中的结构应该和app差不多，也包含签名信息CodeResources文件
+<p>
+
 <h4>App重新签名的流程</h4>
 
 <img src="https://raw.githubusercontent.com/misselvexu/misselvexu.github.io/master/img/in-post/ios-program-certificate-and-sign/resign-flow.png">
