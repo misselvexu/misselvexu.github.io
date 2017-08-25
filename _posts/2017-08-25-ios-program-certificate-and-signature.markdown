@@ -65,7 +65,7 @@ tags:
 
 <h5>iOS证书申请和签名打包流程图</h5>
 
-![](https://raw.githubusercontent.com/misselvexu/misselvexu.github.io/master/img/in-post/ios-program-certificate-and-sign/ios-package-flow.png)
+<img src="https://raw.githubusercontent.com/misselvexu/misselvexu.github.io/master/img/in-post/ios-program-certificate-and-sign/ios-package-flow.png">
 
 <blockquote>这张图阐述了，开发iOS应用程序时，从申请证书，到打包的大致过程</blockquote>
 
