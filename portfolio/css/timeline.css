@@ -28,11 +28,11 @@ body, html {
 
 @font-face {
 	font-family: 'huxico';
-	src:url('../fonts/huxico.eot');
-	src:url('../fonts/huxico.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/huxico.woff') format('woff'),
-		url('../fonts/huxico.ttf') format('truetype'),
-		url('../fonts/huxico.svg#huxico') format('svg');
+	src:url('../fonts/guestico.eot');
+	src:url('../fonts/guestico.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/guestico.woff') format('woff'),
+		url('../fonts/guestico.ttf') format('truetype'),
+		url('../fonts/guestico.svg#huxico') format('svg');
 	font-weight: normal;
 	font-style: normal;
 } /* Made with http://icomoon.io/ */
@@ -156,12 +156,12 @@ body, html {
     background-size: 20px;
 }
 
-.i-kissy:before {
+.i-pyw:before {
 	content: "";
 	display: block;
 	width: 40px;
 	height: 40px;
-	background: url("../images/logo-kissy.png") 50% 50% no-repeat;
+	background: url("../images/logo-pyw.png") 50% 50% no-repeat;
 	background-size: 20px;
 }
 

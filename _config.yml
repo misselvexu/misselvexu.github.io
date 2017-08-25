@@ -1,10 +1,10 @@
 # Site settings
-title: ELveXu Blog
-SEOTitle: ELveXu的博客 | ELveXu Blog
+title: ElveXu Blog
+SEOTitle: ElveXu的博客 | ElveXu Blog
 header-img: img/home-bg.jpg
 email: iskp.me@gmail.com
-description: "ELveXu，Web & Mobile Lover，Front-End Engineer，UX Designer | 与你一起发现更大的世界。"
-keyword: "misselvexu ELveXu ivetech PYW.cn"
+description: "ElveXu，Web & Mobile Lover，Front-End Engineer，UX Designer | 与你一起发现更大的世界。"
+keyword: "misselvexu ElveXu ivetech PYW.cn"
 url: "https://vopen.xyz"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,7 +13,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 # SNS settings
 RSS: false
 weibo_username:     278474444
-zhihu_username:     misselvexu
+zhihu_username:     ivetech
 github_username:    misselvexu
 twitter_username:   ytuaebi
 facebook_username:  misselvexu
@@ -48,7 +48,7 @@ kramdown:
 
 
 # Disqus settings
-# disqus_username: hux
+# disqus_username:
 
 # Netease setttings
 netease_comment: false
@@ -60,15 +60,15 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-# ga_domain: huangxuan.me
+# ga_track_id: ''            # Format: UA-xxxxxx-xx
+# ga_domain:
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "写写代码，睡睡觉，<br>离开世界之前，一切都是过程"
+sidebar-avatar: /img/avatar-guest.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -87,37 +87,10 @@ service-worker: true
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "朋友玩",
+        href: "http://pengyouwan.com/"
     },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
-    },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
+        title: "jekyll",
+        href: "http://jekyll.com.cn/"
     }
 ]
