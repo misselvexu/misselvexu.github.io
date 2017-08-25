@@ -92,5 +92,8 @@ friends: [
     },{
         title: "jekyll",
         href: "http://jekyll.com.cn/"
+    },{
+      title: "Github",
+      href: "https://www.github.com"
     }
 ]
