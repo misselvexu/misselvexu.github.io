@@ -4,7 +4,7 @@ title:      "iOS证书和签名机制"
 subtitle:   "数字签名和数字证书的重要性"
 date:       2017-08-25 12:59:59
 author:     "ElveXu"
-header-img: "img/post-ios-program-certificate-and-signature-1.jpg"
+header-img: "img/post-ios-program-certificate-and-signature-1.png"
 tags:
     - Apple
     - iOS
