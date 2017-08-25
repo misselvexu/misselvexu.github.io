@@ -82,38 +82,34 @@ tags:
 <h5>IPA包结构</h5>
 <blockquote>iOS程序最终都会以.ipa文件导出，ipa文件的结构</blockquote>
 
-![](https://raw.githubusercontent.com/misselvexu/misselvexu.github.io/master/img/in-post/ios-program-certificate-and-sign/payload-st.png)
+<img src="https://raw.githubusercontent.com/misselvexu/misselvexu.github.io/master/img/in-post/ios-program-certificate-and-sign/payload-st.png">
 
 <br>
 <blockquote>事实上，ipa文件只是一个zip包，可以使用如下命令解压：</blockquote>
 
 <br>
-```
+<p>
 /usr/bin/unzip -q xxx.ipa -d <destination>
-```
+</p>
 
-> 解压后，得到上图的Payload目录，下面是个子目录，其中的内容如下：
+<blockquote>解压后，得到上图的Payload目录，下面是个子目录，其中的内容如下：</blockquote>
 
-```
-1. 资源文件，例如图片、html、等等。
-2. CodeSignature/CodeResources。这是一个plist文件，可用文本查看，其中的内容就是是程序包中（不包括Frameworks）所有文件的签名。注意这里是所有文件。意味着你的程序一旦签名，就不能更改其中任何的东西，包括资源文件和可执行文件本身。iOS系统会检查这些签名。
-3. 可执行文件。此文件跟资源文件一样需要签名。
-4. 一个mobileprovision文件.打包的时候使用的，从MC上生成的。
-5. Frameworks。程序引用的非系统自带的Frameworks，每个Frameworks其实就是一个app，其中的结构应该和app差不多，也包含签名信息CodeResources文件
-```
+<li>资源文件，例如图片、html、等等。
+<li>CodeSignature/CodeResources。这是一个plist文件，可用文本查看，其中的内容就是是程序包中（不包括Frameworks）所有文件的签名。注意这里是所有文件。意味着你的程序一旦签名，就不能更改其中任何的东西，包括资源文件和可执行文件本身。iOS系统会检查这些签名。
+<li>可执行文件。此文件跟资源文件一样需要签名。
+<li>一个mobileprovision文件.打包的时候使用的，从MC上生成的。
+<li>Frameworks。程序引用的非系统自带的Frameworks，每个Frameworks其实就是一个app，其中的结构应该和app差不多，也包含签名信息CodeResources文件
 <h4>App重新签名的流程</h4>
 
-![](https://raw.githubusercontent.com/misselvexu/misselvexu.github.io/master/img/in-post/ios-program-certificate-and-sign/resign-flow.png)
+<img src="https://raw.githubusercontent.com/misselvexu/misselvexu.github.io/master/img/in-post/ios-program-certificate-and-sign/resign-flow.png">
 
-> 流程描述
-> 
-```
-  1. 首先解压ipa
-  2. 如果mobileprovision需要替换，替换
-  3. 如果存在Frameworks子目录，则对.app文件夹下的所有Frameworks进行签名，在Frameworks文件夹下的.dylib或.framework
-  4. 对xxx.app签名
-  5. 重新打包
-```
+<blockquote>流程描述</blockquote>
+<br>
+  <li>首先解压ipa
+  <li>如果mobileprovision需要替换，替换
+  <li>如果存在Frameworks子目录，则对.app文件夹下的所有Frameworks进行签名，在Frameworks文件夹下的.dylib或.framework
+  <li>对xxx.app签名
+  <li>重新打包
 
 
 <h5>EOF</h5>
