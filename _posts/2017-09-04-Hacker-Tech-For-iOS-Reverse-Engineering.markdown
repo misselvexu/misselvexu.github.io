@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "0x00.Hacker-Tech-For-iOS-Reverse-Engineering"
+title:      "0x00. Hacker Tech For iOS Reverse Engineering"
 subtitle:   ""
 date:       2017-09-04 10:59:59
 author:     "Elve Xu"
