@@ -88,16 +88,19 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "朋友玩",
-        href: "http://pengyouwan.com/"
+      title: "朋友玩",
+      href: "http://pengyouwan.com/"
     },{
-        title: "jekyll",
-        href: "http://jekyll.com.cn/"
+      title: "jekyll",
+      href: "http://jekyll.com.cn/"
     },{
       title: "Github",
       href: "https://www.github.com"
     },{
       title: "Unsplash",
       href: "https://unsplash.com"
+    },{
+      title: "unsplash.it",
+      href: "https://unsplash.it"
     }
 ]
