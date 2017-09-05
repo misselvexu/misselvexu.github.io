@@ -2,8 +2,11 @@
 layout: default
 ---
 
+<!-- default-->
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<!-- {% if page.header-img %}{{ site.baseurl }}/{{ page.header-img }}{% else %}{% if site.header-img-random %}{{ site.header-img }}{% else %}{{ site.baseurl }}/{{ site.header-img }}{% endif %}{% endif %} -->
+<!-- {{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %} -->
+<header class="intro-header" style="background-image: url('{% if page.header-img %}{{ site.baseurl }}/{{ page.header-img }}{% else %}{% if site.header-img-random %}{{ site.header-img }}{% else %}{{ site.baseurl }}/{{ site.header-img }}{% endif %}{% endif %}')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
