@@ -60,8 +60,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
- ga_track_id: 'UA-105817743-1'            # Format: UA-xxxxxx-xx
- ga_domain: vopen.xyz
+ga_track_id: 'UA-105817743-1'            # Format: UA-xxxxxx-xx
+ga_domain: vopen.xyz
 
 
 # Sidebar settings
