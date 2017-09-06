@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "[Fix] Apache HttpClient Multi-Threads Issues"
-subtitle:   ""
+subtitle:   "small issues"
 date:       2017-09-07 01:59:59
 author:     "Elve Xu"
 header-img: "img/in-post/cookie-bg.jpg"
@@ -90,6 +90,7 @@ tags:
 
 
 ### Links
-[RFC 6265](https://tools.ietf.org/html/rfc6265)
-[Client HTTP Programming Primer](https://hc.apache.org/httpcomponents-client-ga/primer.html)
+- [RFC 6265](https://tools.ietf.org/html/rfc6265)
+- [Client HTTP Programming Primer](https://hc.apache.org/httpcomponents-client-ga/primer.html)
+- [ThreadLocalCookieStore.java]()
 
