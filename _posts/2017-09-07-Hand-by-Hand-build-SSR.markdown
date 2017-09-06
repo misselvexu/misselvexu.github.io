@@ -41,9 +41,9 @@ cd ~/shadowsocksr/shadowsocks
 ```
 
 ### Quick Demo :
->```
-> python server.py -p 443 -k password -m aes-256-cfb -O auth_sha1_v4 -o http_simple
->```
+```
+ python server.py -p 443 -k password -m aes-256-cfb -O auth_sha1_v4 -o http_simple
+```
 > Info：-p port -k password  -m c-method -O p-plugin -o obfs-plugin
 
 > Background Start
@@ -102,29 +102,29 @@ python server.py -p 443 -k password -m aes-256-cfb -O auth_sha1_v4 -o http_simpl
 ### Server Config
 
 > Ready to config：
->```
->    cd ~/shadowsocksr
->    bash initcfg.sh
->```
+```
+    cd ~/shadowsocksr
+    bash initcfg.sh
+```
 
 - Multi-Users With JSON
 
 > 1.Edit file `userapiconfig.py`：
->```
->    API_INTERFACE = 'mudbjson' #api type
->    SERVER_PUB_ADDR = '127.0.0.1' # target ip host
->```
+```
+    API_INTERFACE = 'mudbjson' #api type
+    SERVER_PUB_ADDR = '127.0.0.1' # target ip host
+```
 
 - Multi-Users With MYSQL
 
 > 1.Install MYSQL Python lib
->```
->    ./setup_cymysql.sh
->```
+```
+    ./setup_cymysql.sh
+```
 > 2.Edit file `userapiconfig.py`
->```
->    API_INTERFACE = 'sspanelv2' //
->```
+```
+    API_INTERFACE = 'sspanelv2' //
+```
 > Tips :Depending on the type of your database, you need to choose the correct one : sspanelv2, sspanelv3, sspanelv3ssr, glzjinmod, legendsockssr
 
 > 3.Edit file `usermysql.json`
