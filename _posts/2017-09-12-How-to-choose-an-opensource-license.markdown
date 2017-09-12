@@ -4,8 +4,8 @@ title:      "How Choosing An Open Source License"
 subtitle:   "Copyright Protection"
 date:       2017-09-12 02:59:59
 author:     "Elve Xu"
-header-img: "img/in-post/open-sources/post-ios-program-certificate-and-signature-1.png"
-catalog: true
+header-img: "img/in-post/open-source/post-ios-program-certificate-and-signature-1.png"
+catalog: false
 tags:
     - Hello World
     - Software programing
