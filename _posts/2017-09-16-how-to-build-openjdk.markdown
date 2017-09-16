@@ -4,7 +4,7 @@ title:      "[English] How to build OpenJDK"
 subtitle:   "OpenJDK"
 date:       2017-09-16 02:59:59
 author:     "Elve Xu"
-header-img: "img/in-post/openjdk.png"
+header-img: "img/in-post/code-bg.jpg"
 catalog: true
 tags:
     - Java
