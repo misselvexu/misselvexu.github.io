@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "[English] How to build OpenJDK"
+title:      "[EN] How to build OpenJDK"
 subtitle:   "OpenJDK"
 date:       2017-09-16 02:59:59
 author:     "Elve Xu"
