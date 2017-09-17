@@ -1,0 +1,40 @@
+---
+layout:     post
+title:      "[科普] 行星及恒星的大小对比"
+subtitle:   "震撼你的视野"
+date:       2017-09-17 21:59:59
+author:     "Elve Xu"
+header-img: "img/in-post/universe-bg.png"
+catalog: false
+tags:
+    - 科普
+    - Universe
+    - 宇宙
+---
+
+> 科普系列
+
+<h3>Video</h3>
+
+<link href="{{ "/video.js/video-js.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+<script src="{{ "/video.js/video.min.js" | prepend: site.baseurl }}"></script>
+
+> 通过行星及恒星的大小对比，能深刻体会到：人类，不太阳系真的太渺小了！
+<video
+    id="my-player"
+    class="video-js"
+    controls
+    preload="auto"
+    poster="{{ "/resources/video/universe/universe-video-cover.png" | prepend: site.baseurl }}"
+    data-setup='{"aspectRatio":"16:9" ,"nativeControlsForTouch": true}'>
+  <source src="{{ "/resources/video/universe/1488116482858_d10faced_1280x720.mp4" | prepend: site.baseurl }}" type="video/mp4"></source>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that.
+  </p>
+</video>
+> Video From MORN1415 & Eyepetizer
+
+<p>Please come again!</p>
+
+
+
