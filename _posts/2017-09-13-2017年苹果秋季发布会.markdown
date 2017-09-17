@@ -27,7 +27,7 @@ tags:
     controls
     preload="auto"
     poster="{{ "/resources/video/iphonex/iphonex-video-cover.png" | prepend: site.baseurl }}"
-    data-setup='{"width":852 ,"height":480}'>
+    data-setup='{"aspectRatio":"16:9" ,"nativeControlsForTouch": true}'>
   <source src="{{ "/resources/video/iphonex/1505278269318_50448_854x480.mp4" | prepend: site.baseurl }}" type="video/mp4"></source>
   <p class="vjs-no-js">
     To view this video please enable JavaScript, and consider upgrading to a web browser that.
