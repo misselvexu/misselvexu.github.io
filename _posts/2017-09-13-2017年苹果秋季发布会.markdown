@@ -20,10 +20,10 @@ tags:
 <link href="{{ "/video.js/video-js.min.css" | prepend: site.baseurl }}" rel="stylesheet">
 <script src="{{ "/video.js/video.min.js" | prepend: site.baseurl }}"></script>
 
-> 有刘海的全面屏 / 脸部解锁（需要睁眼，不过现场测评党们表示谁都能解锁，也可能任何人都解锁不能……）/ 以后拍照有相机和苹果手机两种概念！肖像照明可以定义场景中的光线 / 无线充电 / 增强现实 / A11 仿生，最强大的和最聪明的芯片曾经在智能手机
+> 有"刘海"的全面屏 / 脸部解锁（需要睁眼）/ 以后拍照有相机和苹果手机两种概念！肖像照明可以定义场景中的光线 / 无线充电 / 增强现实 / A11 仿生，最强大的和最聪明的芯片曾经在智能手机
 <video
     id="my-player"
-    class="video-js"
+    class="video-js vjs-big-play-centered"
     controls
     preload="auto"
     poster="{{ "/resources/video/iphonex/iphonex-video-cover.png" | prepend: site.baseurl }}"

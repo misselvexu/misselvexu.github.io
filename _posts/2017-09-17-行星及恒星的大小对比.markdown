@@ -19,10 +19,10 @@ tags:
 <link href="{{ "/video.js/video-js.min.css" | prepend: site.baseurl }}" rel="stylesheet">
 <script src="{{ "/video.js/video.min.js" | prepend: site.baseurl }}"></script>
 
-> 通过行星及恒星的大小对比，能深刻体会到：人类，不太阳系真的太渺小了！
+> 通过行星及恒星的大小对比，能深刻体会到：人类真的太渺小了！
 <video
     id="my-player"
-    class="video-js"
+    class="video-js vjs-big-play-centered"
     controls
     preload="auto"
     poster="{{ "/resources/video/universe/universe-video-cover.png" | prepend: site.baseurl }}"
