@@ -1,0 +1,45 @@
+---
+layout:     post
+title:      "[Apple] 2017年苹果秋季发布会"
+subtitle:   "Apple Special Event - 2017"
+date:       2017-09-13 02:59:59
+author:     "Elve Xu"
+header-img: "img/in-post/apple-think-different-bg.png"
+catalog: false
+tags:
+    - Apple
+    - iPhone X
+---
+
+> Apple
+
+
+<h3>Video</h3>
+
+
+<link href="{{ "/video.js/video-js.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+<script src="{{ "/video.js/video.min.js" | prepend: site.baseurl }}"></script>
+
+> 有刘海的全面屏 / 脸部解锁（需要睁眼，不过现场测评党们表示谁都能解锁，也可能任何人都解锁不能……）/ 以后拍照有相机和苹果手机两种概念！肖像照明可以定义场景中的光线 / 无线充电 / 增强现实 / A11 仿生，最强大的和最聪明的芯片曾经在智能手机
+<video
+    id="my-player"
+    class="video-js"
+    controls
+    preload="auto"
+    poster="{{ "/resources/video/iphonex/iphonex-video-cover.png" | prepend: site.baseurl }}"
+    data-setup='{"width":852 ,"height":480}'>
+  <source src="{{ "/resources/video/iphonex/1505278269318_50448_854x480.mp4" | prepend: site.baseurl }}" type="video/mp4"></source>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that.
+  </p>
+</video>
+> Video From Eyepetizer And Apple
+
+<h3>Price</h3>
+<img src="{{ "/img/in-post/apple-event-2017/WX20170913-025047.png" | prepend: site.baseurl }}">
+
+
+<p>Please come again!</p>
+
+
+
