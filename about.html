@@ -45,16 +45,16 @@ header-img: "img/about-bg.jpg"
     function _render(){
         var _hash = window.location.hash;
         // zh
+        $zh.style.display = "block";
+        $en.style.display = "none";
         if(_hash == "#zh"){
             $select.selectedIndex = 0;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // en by default
         }else{
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 1;
-            $zh.style.display = "block";
-            $en.style.display = "none";
+            // en by default
+            $en.style.display = "block";
+            $zh.style.display = "none";
         }
     }
 
