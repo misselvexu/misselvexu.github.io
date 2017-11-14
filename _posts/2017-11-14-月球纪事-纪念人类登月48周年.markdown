@@ -1,0 +1,42 @@
+---
+layout:     post
+title:      "[科普] 月球纪事：纪念人类登月 48 周年"
+subtitle:   "震撼你的视野"
+date:       2017-11-14 11:59:59
+author:     "Elve Xu"
+header-img: "img/in-post/8c68138efafd2ae51ffb1d4b75b4537c.jpg"
+catalog: false
+tags:
+    - 科普
+    - Universe
+    - 宇宙
+    - 登月
+---
+
+> 科普系列
+
+<h3>Video</h3>
+
+<link href="{{ "/video.js/video-js.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+<script src="{{ "/video.js/video.min.js" | prepend: site.baseurl }}"></script>
+
+> 1969 年 7 月 20 日下午 4 时 17 分 42 秒，阿姆斯特朗将左脚小心翼翼地踏上了月球表面，这是人类第一次踏上月球。图形动效设计师 Christian 与他的哥哥和作曲家 Wolfgang 用 18 个月完成这个 CG 与实拍结合的短片。
+> From Christian Stangl
+<video
+    id="my-player"
+    class="video-js vjs-big-play-centered"
+    controls
+    preload="auto"
+    poster="{{ "/resources/video/universe/f6a20a5c97cb2db7f3b36eb7b6f84380.jpeg" | prepend: site.baseurl }}"
+    data-setup='{"aspectRatio":"16:9" ,"nativeControlsForTouch": true}'>
+  <source src="{{ "/resources/video/universe/1500436232584_23145_854x480.mp4" | prepend: site.baseurl }}" type="video/mp4"></source>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that.
+  </p>
+</video>
+> Video From MORN1415 & Eyepetizer
+
+<p>Please come again!</p>
+
+
+
