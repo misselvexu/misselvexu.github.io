@@ -14,7 +14,7 @@ tags:
 
 > Code is Not Only Code .
 
-##Microservices[微服务]
+## Microservices[微服务]
 > 新的架构术语的定义
 ![](https://raw.githubusercontent.com/misselvexu/misselvexu.github.io/master/img/microservices.png)
 过去几年来，“微服务体系结构”（microservice architecture）这个术语出现了，它描述了一种将软件应用程序设计成可独立部署的服务套件的特殊方式。 虽然这种架构风格没有确切的定义，但围绕业务能力，自动化部署，端点智能以及对语言和数据的分散控制等方面，组织具有一些共同特征。
@@ -43,10 +43,10 @@ tags:
 我们并不认为微服务的风格是新颖的或创新的，它的根源至少可以追溯到Unix的设计原则。 但是我们确实认为没有足够多的人考虑微服务架构，如果他们使用了许多软件开发将会更好。
 
 
-##微服务架构的特点(Characteristics)
+## 微服务架构的特点(Characteristics)
 >我们不能说微服务架构风格有一个正式的定义，但是我们可以试图描述我们认为符合标签的架构的共同特征。 就像任何概括共同特征的定义一样，并不是所有的微服务体系结构都具有所有的特征，但我们确实期望大多数微服务体系结构展现出最多的特征。 虽然我们的作者是这个相当松散的社区的积极成员，但我们的目的是试图描述我们在自己的工作中所看到的以及我们所知道的团队的类似努力。 特别是我们并没有制定一些符合的定义。
 
-####Componentization via Services
+#### Componentization via Services
 
 只要我们涉足软件行业，就一直希望通过将组件整合在一起来构建系统，而这正是我们在现实世界中看到事物的方式。在过去的几十年中，我们已经看到相当大的进步，大部分语言平台的共同图书馆的大纲。
 
@@ -62,7 +62,7 @@ tags:
 
 首先，我们可以观察到服务映射到运行时进程，但这只是第一个近似值。一个服务可能由多个进程组成，这些进程总是被开发和部署在一起，例如一个应用程序进程和一个只被该服务使用的数据库。
 
-####Organized around Business Capabilities
+#### Organized around Business Capabilities
 在将大型应用程序拆分为多个部分时，管理层往往将注意力集中在技术层面，导致UI团队，服务器端逻辑团队和数据库团队。 当团队沿着这些路线分开时，即使是简单的改变也会导致跨团队项目需要时间和预算批准。 一个聪明的团队将围绕这一点进行优化，并为两个弊端中的较小者提供丰富的内容 - 只需将逻辑强制到他们可以访问的任何应用程序。 换句话说到处都是逻辑。 这是**Conway's Law**[5]的一个例子。
 
 > Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.
@@ -85,7 +85,7 @@ tags:
 This leads to the question of whether there are sufficiently large differences within this size range that the service-per-dozen-people and service-per-person sizes shouldn't be lumped under one microservices label. At the moment we think it's better to group them together, but it's certainly possible that we'll change our mind as we explore this style further.
 
 
-####Products not Projects
+#### Products not Projects
 
 我们所看到的大多数应用程序开发工作都使用了一个项目模型：目标是提供一些被认为完成的软件。完成后，软件被移交给维护组织，建立它的项目组被解散。
 
@@ -95,7 +95,7 @@ This leads to the question of whether there are sufficiently large differences w
 
 没有理由为什么这种单一的应用程序不能采用同样的方法，但是较小的服务粒度可以更容易地在服务开发人员和用户之间建立个人关系。
 
-####Smart endpoints and dumb pipes
+#### Smart endpoints and dumb pipes
 
 >当在不同流程之间建立沟通结构时，我们看到许多产品和方法强调将重要的智慧带入沟通机制本身。 企业服务总线（ESB）就是一个很好的例子，ESB产品通常包括用于消息路由，编排，转换和应用业务规则的复杂设施。
 
@@ -122,7 +122,7 @@ This common manifestation of SOA has led some microservice advocates to reject t
 >
 
 
-####Decentralized Governance
+#### Decentralized Governance
 
 集中治理的后果之一是在单一技术平台上实现标准化的趋势。经验表明，这种方法是狭隘的 - 不是每个问题都是钉子，而不是每一个解决方案。我们更喜欢使用正确的工具来工作，而单一的应用程序可以在一定程度上利用不同的语言，这是不常见的。
 
@@ -138,7 +138,7 @@ Netflix是遵循这一理念的组织的一个很好的例子。作为图书馆�
 
 也许分散治理的最高点是由亚马逊推广的构建它/运行它的精神。 团队负责构建软件的各个方面，包括全天候运行软件。 这种责任水平的转变绝对不是常态，但我们看到越来越多的公司将责任推给开发团队。 Netflix是另一个采用这种风格的组织[11]。 每天早上3点被你的传呼机唤醒，当你写代码的时候，你肯定会把注意力集中在质量上。 这些想法与传统的集中治理模式相距甚远。
 
-####Decentralized Data Management
+#### Decentralized Data Management
 数据管理的分权化以多种不同的方式呈现出来。 在最抽象的层面上，这意味着世界的概念模型将在不同系统之间有所不同。 当整合大型企业时，这是一个常见问题，客户的销售观点将与支持观点不同。 在销售视图中称为客户的某些内容在支持视图中可能完全不显示。 那些做的可能有不同的属性和（更差的）共同的属性与微妙的不同的语义。
 
 这个问题在应用程序之间是常见的，但是也可以在应用程序中发生，特别是当应用程序被分成不同的组件时。一个有用的思考方式是有界上下文的Domain-Driven Design概念。 DDD将一个复杂的领域划分为多个有界的上下文，并绘制出他们之间的关系。这个过程对整体和微服务体系结构都是有用的，但是服务和上下文边界之间有一个自然的相关性，这有助于澄清，正如我们在业务能力部分所描述的，加强了分离。
@@ -153,7 +153,7 @@ Netflix是遵循这一理念的组织的一个很好的例子。作为图书馆�
 
 以这种方式选择管理不一致对于许多开发团队来说是一个新的挑战，但却是经常与商业实践相匹配的挑战。企业往往处理一定程度的不一致性，以便快速响应需求，同时采取某种逆转过程来处理错误。只要纠正错误的成本低于失败的成本，这种折衷是值得的。
 
-####Infrastructure Automation
+#### Infrastructure Automation
 基础设施自动化技术在过去几年中发生了巨大的变化 - 特别是云和AWS的发展降低了构建，部署和运行微服务的操作复杂性。
 
 许多正在用微服务构建的产品或系统正在由具有持续交付丰富经验的团队构建，这是前驱，持续集成。 以这种方式构建软件的团队广泛使用基础设施自动化技术。 这在下面显示的构建流水线中进行了说明。
@@ -169,7 +169,7 @@ Netflix是遵循这一理念的组织的一个很好的例子。作为图书馆�
 ![](https://raw.githubusercontent.com/misselvexu/misselvexu.github.io/master/img/in-post/microservices/micro-deployment.png)
 >Figure 6: Module deployment often differs
 
-####Design for failure
+#### Design for failure
 将服务用作组件的后果是，应用程序需要设计成能够容忍服务的失败。 任何服务电话都可能由于供应商不可用而失败，客户必须尽可能优雅地回应。 与单片设计相比，这是一个缺点，因为它引入了额外的复杂性来处理它。 其结果是微服务团队不断反思服务失败如何影响用户体验。 Netflix's Simian Army在工作日期间引发服务甚至数据中心的故障，以测试应用程序的弹性和监控。
 
 这种生产中的自动化测试足以让大多数运营团队通常在一个星期之前的工作中感到不适。这并不是说单一的架构风格不能够完善的监控设置 - 这在我们的经验中不太常见。
@@ -180,7 +180,7 @@ Netflix是遵循这一理念的组织的一个很好的例子。作为图书馆�
 
 微服务团队希望看到每个单独服务的复杂的监控和日志记录设置，例如仪表板显示上/下状态以及各种运营和业务相关指标。 关于断路器状态，当前吞吐量和延迟的细节是我们经常遇到的其他例子。
 
-####Evolutionary Design
+#### Evolutionary Design
 微服务从业者通常来自进化设计背景，并将服务分解视为进一步的工具，以使应用程序开发人员能够控制其应用程序中的更改，而不会减慢更改速度。变更控制并不一定意味着降低变更 - 使用正确的态度和工具，您可以对软件进行频繁，快速和控制良好的变更。
 
 每当你试图将一个软件系统分解成组件时，你都面临着如何分割这些组件的决定 - 我们决定分割我们的应用程序的原则是什么？组件的关键属性是独立替换和可升级性的概念[13] - 这意味着我们寻找可以想象重写组件而不影响其协作者的点。事实上，许多微服务集团通过明确预计许多服务将被废弃而不是长远发展，从而进一步推动了这一进程。
@@ -193,7 +193,7 @@ Netflix是遵循这一理念的组织的一个很好的例子。作为图书馆�
 
 
 -------
-##微服务是未来吗？
+## 微服务是未来吗？
 写这篇文章的主要目的是解释微服务的主要思想和原理。通过花时间做到这一点，我们清楚地认为，微服务架构风格是一个重要的思想 - 值得认真考虑的企业应用。我们最近建立了一些使用风格的系统，并且知道其他使用过这种方法的人。
 
 那些我们知道谁在某种程度上开拓了架构风格的人包括Amazon, Netflix, The Guardian, the UK Government Digital Service, realestate.com.au, 2013年的会议电路充满了一些公司正在转向微型服务的例子 - 包括Travis CI。另外还有很多组织一直在做我们想做微服务的类，但没有使用过这个名字。 （通常这被称为SOA--尽管如我们所说，SOA有许多相互矛盾的形式[15]）。
