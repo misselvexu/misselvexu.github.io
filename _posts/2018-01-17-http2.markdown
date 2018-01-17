@@ -31,6 +31,7 @@ Year | HTTP Version
 2015 |	2.0 
 
 ## Summary table
+
 HTTP | Method	RFC |	Request Has Body | Response Has Bod | Safe | Idempotent |Cacheable
 --------|--------|--------|--------|-------|-------|-------
 GET     |RFC 7231|Optional|Yes|Yes|Yes|Yes 
