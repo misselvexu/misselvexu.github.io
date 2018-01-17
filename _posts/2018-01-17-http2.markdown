@@ -1,0 +1,32 @@
+---
+layout:     post
+title:      "[科普] Http/1 vs Http/2"
+subtitle:   "下一代HTTP协议"
+date:       2018-01-17 10:59:59
+author:     "Power by @kosamari"
+header-img: "img/http2-bg.png"
+catalog: true
+tags:
+    - Http/1
+    - Http/2
+    - 
+---
+
+> Code is Not Only Code .
+
+## 什么是HTTP/2?
+> HTTP/2 （原名HTTP/2.0）即超文本传输协议 2.0，是下一代HTTP协议。是由互联网工程任务组（IETF）的Hypertext Transfer Protocol Bis (httpbis)工作小组进行开发。是自1999年http1.1发布后的首个更新。HTTP 2.0在2013年8月进行首次合作共事性测试。在开放互联网上HTTP 2.0将只用于https://网址，而 http://网址将继续使用HTTP/1，目的是在开放互联网上增加使用加密技术，以提供强有力的保护去遏制主动攻击。DANE RFC6698允许域名管理员不通过第三方CA自行发行证书。
+
+WIKI
+-------
+> The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, and hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web.
+
+## HTTP WHAT ?
+<img src="{{ "/img/in-post/http2/http2-1.jpg" | prepend: site.baseurl }}">
+
+## HTTP 1.x
+<img src="{{ "/img/in-post/http2/http2-2.jpg" | prepend: site.baseurl }}">
+
+## HTTP 2 (NEW)
+<img src="{{ "/img/in-post/http2/http2-3.jpg" | prepend: site.baseurl }}">
+
