@@ -17,17 +17,31 @@ tags:
 ## 什么是HTTP/2?
 > HTTP/2 （原名HTTP/2.0）即超文本传输协议 2.0，是下一代HTTP协议。是由互联网工程任务组（IETF）的Hypertext Transfer Protocol Bis (httpbis)工作小组进行开发。是自1999年http1.1发布后的首个更新。HTTP 2.0在2013年8月进行首次合作共事性测试。在开放互联网上HTTP 2.0将只用于https://网址，而 http://网址将继续使用HTTP/1，目的是在开放互联网上增加使用加密技术，以提供强有力的保护去遏制主动攻击。DANE RFC6698允许域名管理员不通过第三方CA自行发行证书。
 
-WIKI
+WiKi
 -------
 > The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, and hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web.
 
-## Version
+## HTTP Version
+
 Year | HTTP Version 
 ----|----
 1991 |	0.9 
 1996 |	1.0 
 1997 |	1.1 
 2015 |	2.0 
+
+## Summary table
+HTTP | Method	RFC |	Request Has Body | Response Has Bod | Safe | Idempotent |Cacheable
+--------|--------|--------|--------|-------|-------|-------
+GET     |RFC 7231|Optional|Yes|Yes|Yes|Yes 
+HEAD    |RFC 7231|No|No|Yes|Yes|Yes
+POST    |RFC 7231|Yes|Yes|No|No|Yes
+PUT     |RFC 7231|Yes|Yes|No|Yes|No
+DELETE  |RFC 7231|No|Yes|No|Yes|No
+CONNECT |RFC 7231|Yes|Yes|No|No|No
+OPTIONS |RFC 7231|Optional|Yes|Yes|Yes|No
+TRACE   |RFC 7231|No|Yes|Yes|Yes|No
+PATCH   |RFC 5789|Yes|Yes|No|No|No
 
 
 ## HTTP WHAT ?
