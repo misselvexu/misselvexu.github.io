@@ -16,7 +16,7 @@ tags:
 
 ##Microservices[微服务]
 > 新的架构术语的定义
-
+![](https://raw.githubusercontent.com/misselvexu/misselvexu.github.io/master/img/microservices.png)
 过去几年来，“微服务体系结构”（microservice architecture）这个术语出现了，它描述了一种将软件应用程序设计成可独立部署的服务套件的特殊方式。 虽然这种架构风格没有确切的定义，但围绕业务能力，自动化部署，端点智能以及对语言和数据的分散控制等方面，组织具有一些共同特征。
 
 
