@@ -1,0 +1,39 @@
+---
+layout:     post
+title:      "[人生] 人生无完美，曲折亦风景"
+subtitle:   "累了就停下来看看周围"
+date:       2018-03-09 14:14:14
+author:     "Elve Xu"
+header-img: "img/in-post/WX20180309-153546.png"
+catalog: false
+tags:
+    - 人生
+    - 风景
+---
+
+> 人生系列
+
+<h3>Video</h3>
+
+<link href="{{ "/video.js/video-js.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+<script src="{{ "/video.js/video.min.js" | prepend: site.baseurl }}"></script>
+
+> 伦敦的插画师 Izzy Burton 以英国作家 Rachel Cladingbowl 的一首诗作为题材，创作了这支精致唯美，又富含深意的动画短片「VIA」。它的原词意思是「经过」、「经历」，如同短片中所想传达的涵义一样：生命如流动不息的河流，我们遇见过谁，又错过了谁。但那些失望亦是希望，因为终有一天，会有人与你结伴同行。From Blue Zoo！
+<video
+    id="my-player"
+    class="video-js vjs-big-play-centered"
+    controls
+    preload="auto"
+    poster="{{ "/resources/video/life/3869bf86dbccc191e4b7309dc9e8570e.jpeg" | prepend: site.baseurl }}"
+    data-setup='{"aspectRatio":"16:9" ,"nativeControlsForTouch": true}'>
+  <source src="{{ "/resources/video/life/1520508334703_87286_854x480.mp4" | prepend: site.baseurl }}" type="video/mp4"></source>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that.
+  </p>
+</video>
+> Video From Blue Zoo & Eyepetizer
+
+<p>Please come again!</p>
+
+
+
