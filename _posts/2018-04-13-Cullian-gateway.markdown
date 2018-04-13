@@ -16,7 +16,7 @@ tags:
 > Code is Not Only Code .
 
 <h3 align="left">
-  <img src=""{{ "/img/cullian/cullian-icon.png" | prepend: site.baseurl }}" alt="cullian Logo" />
+  <img src="{{ "/img/cullian/cullian-icon.png" | prepend: site.baseurl }}" alt="cullian Logo" />
 </h3>
 
 # Cullian Project
