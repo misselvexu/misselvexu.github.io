@@ -5,7 +5,7 @@ title:      "[Develop] Cullian Gateway for Next Microservice"
 subtitle:   "A gateway service"
 date:       2018-04-13 09:59:59
 author:     "Elve Xu"
-header-img: "img/cullian/cullian-bg.png"
+header-img: "img/cullian/cullian-bg-1.png"
 catalog: true
 tags:
     - Microservices
