@@ -28,6 +28,11 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
+                    {% if page.ignore %}
+                    <script>
+                        console.log("ignore");
+                    </script>
+                    {% else %}
                     <div class="tags">
                         {% for tag in page.tags %}
                         <a class="tag" href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
@@ -35,11 +40,12 @@ layout: default
                     </div>
                     <h1>{{ page.title }}</h1>
                     {% comment %}
-                        always create a h2 for keeping the margin , Hux
+                        always create a h2 for keeping the margin
                     {% endcomment %}
                     {% comment %} if page.subtitle {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% comment %} endif {% endcomment %}
+                    {% endif %}
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
                 </div>
             </div>
@@ -155,17 +161,19 @@ layout: default
 
 {% if site.netease_comment %}
 <!-- 网易云跟帖JS代码 start -->
+<!--
 <script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
 <script>
   var cloudTieConfig = {
     url: document.location.href, 
     sourceId: "",
-    productKey: "de25fc98a6fe48b3bc8a7ae765da99a0",
+    productKey: "",
     target: "cloud-tie-wrapper"
   };
   var yunManualLoad = true;
   Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
 </script>
+-->
 <!-- 网易云跟帖JS代码 end -->
 {% endif %}
 
@@ -202,7 +210,7 @@ layout: default
 </script>
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
-    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+    async("/js/anchor.min.js",function(){
         anchors.options = {
           visible: 'always',
           placement: 'right',

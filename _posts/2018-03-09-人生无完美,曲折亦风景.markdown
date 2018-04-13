@@ -19,6 +19,7 @@ tags:
 <script src="{{ "/video.js/video.min.js" | prepend: site.baseurl }}"></script>
 
 > 伦敦的插画师 Izzy Burton 以英国作家 Rachel Cladingbowl 的一首诗作为题材，创作了这支精致唯美，又富含深意的动画短片「VIA」。它的原词意思是「经过」、「经历」，如同短片中所想传达的涵义一样：生命如流动不息的河流，我们遇见过谁，又错过了谁。但那些失望亦是希望，因为终有一天，会有人与你结伴同行。From Blue Zoo！
+
 <video
     id="my-player"
     class="video-js vjs-big-play-centered"
