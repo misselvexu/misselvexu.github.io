@@ -32,6 +32,13 @@ layout: default
                     <script>
                         console.log("ignore");
                     </script>
+                    <div class="tags">
+                        {% for tag in page.tags %}
+                        <a class="tag" href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
+                    <h1></h1>
+                    <h2 class="subheading"></h2>
                     {% else %}
                     <div class="tags">
                         {% for tag in page.tags %}
