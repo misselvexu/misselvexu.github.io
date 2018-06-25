@@ -1,0 +1,41 @@
+---
+layout:     post
+title:      "[科普] 模拟行星撞地球"
+subtitle:   "震撼你的视野[单眼全屏观看可3D]"
+date:       2018-06-25 21:59:59
+author:     "Elve Xu"
+header-img: "img/in-post/universe-bg.png"
+catalog: false
+tags:
+    - 科普
+    - Universe
+    - 宇宙
+    - 行星
+---
+
+> 科普系列
+
+<h3>Video</h3>
+
+<link href="{{ "/video.js/video-js.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+<script src="{{ "/video.js/video.min.js" | prepend: site.baseurl }}"></script>
+
+> 视频是日本科学家制作的，设定是直径500公里的小行星，撞击地点在日本列岛东南海域300公里，中国因为撞击地壳被掀了.
+<video
+    id="my-player"
+    class="video-js vjs-big-play-centered"
+    controls
+    preload="auto"
+    poster="{{ "/resources/video/universe/universe-video-cover.png" | prepend: site.baseurl }}"
+    data-setup='{"aspectRatio":"16:9" ,"nativeControlsForTouch": true}'>
+  <source src="{{ "/resources/video/universe/0300080100587A0843E2B81A8933984ADBE515-DF5A-AD40-1F88-E2831E76B3E1.mp4" | prepend: site.baseurl }}" type="video/mp4"></source>
+  <p class="vjs-no-js">
+    To view this video please enable JavaScript, and consider upgrading to a web browser that.
+  </p>
+</video>
+> Video From Discovery & Youtube
+
+<p>Please come again!</p>
+
+
+
