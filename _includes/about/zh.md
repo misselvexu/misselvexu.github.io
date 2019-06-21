@@ -18,7 +18,7 @@
 
             <li class="timeline-item">
                 <div class="timeline-info">
-                    <span>March 1th, 2018</span>
+                    <span>三月 一号, 2018</span>
                 </div>
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
