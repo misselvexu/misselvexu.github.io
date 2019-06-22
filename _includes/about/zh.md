@@ -22,8 +22,8 @@
                 </div>
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
-                    <h3 class="timeline-title">Woring For @Acmedcare+</h3>
-                    <p>.......(working) </p>
+                    <h3 class="timeline-title">就职于 @Acmedcare+</h3>
+                    <p>.......(服役中) </p>
                 </div>
             </li>
         
