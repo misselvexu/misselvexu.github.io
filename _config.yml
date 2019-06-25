@@ -7,7 +7,7 @@ SEOTitle: ElveXu小花园 | ElveXu Blog
 header-img: img/home-bg.jpg
 email: iskp.me@gmail.com
 description: "ElveXu，Java , iOS Security & Mobile Lover，Back-End Engineer | 与你一起发现更大的世界。"
-keyword: "misselvexu ElveXu ivetech 徐小维 vopen.xyz vopen 富恒达办公家具"
+keyword: "misselvexu ElveXu ivetech 徐小维 vopen.xyz vopen"
 url: "https://vopen.xyz"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -89,6 +89,9 @@ service-worker: true
 # Friends
 friends: [
     {
+      title: "Acmedcare+",
+      href: "http://www.acmedcare.com/"
+    },{
       title: "朋友玩",
       href: "http://pengyouwan.com/"
     },{
