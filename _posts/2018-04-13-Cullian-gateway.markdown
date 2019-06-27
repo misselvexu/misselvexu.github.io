@@ -2,15 +2,16 @@
 layout:     post
 ignore:     true
 title:      "[Develop] Cullian Gateway for Next Microservice"
-subtitle:   "A gateway service"
+subtitle:   "Micro-Service Gateway"
 date:       2018-04-13 09:59:59
 author:     "Elve Xu"
 header-img: "img/cullian/cullian-bg-1.png"
 catalog: true
 tags:
     - Microservices
-    - Dynamic Gateway
+    - Dynamic
     - Gateway
+    
 ---
 
 > Code is Not Only Code .
