@@ -9,7 +9,7 @@ header-img: "img/cullian/cullian-bg-1.png"
 catalog: true
 tags:
     - Microservices
-    - Dynamic
+    - Devloper
     - Gateway
     
 ---
@@ -98,9 +98,3 @@ Deployment architecture like this:
 > `https://github.com/CiNC0/Cullian`
 
 > If you like this project, Welcome to `star`
-
-## JOIN ME
-
-> If U want to developing with us
-
-> Email to Me : `iskp.me@gmail.com`
