@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "[科普] 模拟行星撞地球"
+title:      "[科普] 模拟行星撞地球 2.0"
 subtitle:   "震撼你的视野[单眼全屏观看可3D]"
 date:       2018-06-25 21:59:59
 author:     "Elve Xu"
