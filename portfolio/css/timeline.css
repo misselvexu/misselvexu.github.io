@@ -183,6 +183,15 @@ body, html {
 	background-size: 20px;
 }
 
+.i-hgj:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/logo-hgj.png") 50% 50% no-repeat;
+	background-size: 20px;
+}
+
 .i-dhome:before {
 	content: "";
 	display: block;
