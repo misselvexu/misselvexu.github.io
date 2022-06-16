@@ -165,6 +165,15 @@ body, html {
 	background-size: 20px;
 }
 
+.i-xsj:before {
+	content: "";
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url("../images/logo-xsj.png") 50% 50% no-repeat;
+	background-size: 20px;
+}
+
 .i-acmedcare:before {
 	content: "";
 	display: block;
