@@ -35,7 +35,10 @@ tags:
 
 ## 锁之间的关系
 假设前提：不考虑数据库引擎、隔离级别，简单表格做数据记录和读取。
-场景一
+
+### 场景一
+
+<img width="848" alt="image" src="https://user-images.githubusercontent.com/3436472/192413232-7ea1ac1d-9c79-4725-a7c2-d1cd7df013bd.png">
 
 解析：
 过程称为脏读，（场景一中T1、T2都是先查后更新操作，更新时无保护行为）
@@ -43,6 +46,7 @@ tags:
 引导问题：
 在不修改数据库隔离级别的情况下，是否可以通过SQL手动解决脏读问题？
 
+<img width="1033" alt="image" src="https://user-images.githubusercontent.com/3436472/192413360-fa243c9a-dd42-4555-88cf-ce550f6ac823.png">
 
 解析：
 1. 过程中《手动添加排他锁》的操作，称为行锁。（行锁的本质是在索引节点上加锁）
@@ -64,7 +68,7 @@ tags:
 引导问题：
 两阶段锁协议可以避免死锁吗？
 
-## 场景二
+### 场景二
 FOR UPDATE 属于一种『悲观锁』，那对应的用乐观锁咋解决上述的脏读的问题？
 // JD：乐观锁场景比较简单，就不细化了
 
@@ -108,19 +112,25 @@ FOR UPDATE 属于一种『悲观锁』，那对应的用乐观锁咋解决上述
 ## 事务的并发问题与隔离级别
 ### 脏写
 事务A更新数据后，未提交，B事务修改同一条数据，A若回滚，导致B修改的值没了，出现了脏写。
+<img width="773" alt="image" src="https://user-images.githubusercontent.com/3436472/192413399-f02d4811-f019-47f6-8024-19b4a3f8460b.png">
 
 
 ### 脏读
 事务A更新数据后，未提交，B事务读取数据为a，事务A若回滚，导致B再读取已经读取不到a了，出现了脏读。
 
+<img width="813" alt="image" src="https://user-images.githubusercontent.com/3436472/192413418-41c38a3e-13c8-40ee-a97e-c22e259529a3.png">
+
+
 无论是脏写还是脏读，都是因为一个事务去更新或者查询了另外一个还没提交的事务更新过的数据。因为另外一个事务还没提交，所以它随时可能会回滚，必然导致你更新或查询到的数据就没了，这就是脏写和脏读两种场景。
 
 ### 不可重复读
 事务A读取了数据，之后事务B修改了数据并提交，事务A再次读取时，值发生了变化，两次读取的数据不一致。
+<img width="777" alt="image" src="https://user-images.githubusercontent.com/3436472/192413427-4e0a2089-b34b-4970-b35b-78cc4c53bdc3.png">
 
 
 ### 幻读
 事务A做范围查询，事务B插入或删除了几条数据并提交，则A再次查询时数据发生了变化。
+<img width="848" alt="image" src="https://user-images.githubusercontent.com/3436472/192413434-e53a208d-e5e6-423e-9abf-5e18b3a3659c.png">
 
 
 总结上边介绍的事务问题，包括两种：
@@ -131,8 +141,10 @@ FOR UPDATE 属于一种『悲观锁』，那对应的用乐观锁咋解决上述
 ## 扩展ReadView + MVCC解决事务并发的场景
 
 - 读已提交情况
+<img width="1065" alt="image" src="https://user-images.githubusercontent.com/3436472/192413449-58bbef2e-248c-4597-87b0-c1fdf541ff66.png">
 
 
 - 可重复读情况
+<img width="897" alt="image" src="https://user-images.githubusercontent.com/3436472/192413458-ac058c0d-b617-4fec-96ce-7bd87bb5a3d1.png">
 
 
