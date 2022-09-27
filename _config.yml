@@ -1,13 +1,13 @@
 # Site settings
-title: '术 & 道'
-SEOTitle: misselvexu | ElveXu Blog
+title: 'Next-Cloud Framework - Research & Development'
+SEOTitle: misselvexu | Palmer.Xu Blog
 # 背景图是否随机
 #header-img-random:
 #header-img: https://unsplash.it/1600/500/?random
 header-img: img/home-bg.jpg
 email: iskp.me@gmail.com
-description: "Elve Xu，Java , iOS Security & Mobile Lover，Back-End Engineer | 与你一起发现更大的世界。"
-keyword: "misselvexu ElveXu ivetech 徐小维 vopen.xyz vopen"
+description: "Palmer Xu，Java , iOS Security & Mobile Lover，Back-End Engineer | 与你一起发现更大的世界。"
+keyword: "海管家 misselvexu Palmer.Xu ivetech 老徐 vopen.xyz vopen"
 url: "https://vopen.xyz"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -89,11 +89,11 @@ service-worker: true
 # Friends
 friends: [
     {
+      title: "海管家",
+      href: "http://www.hgj.com/"
+    },{
       title: "Acmedcare+",
       href: "http://www.acmedcare.com/"
-    },{
-      title: "朋友玩",
-      href: "http://pengyouwan.com/"
     },{
       title: "jekyll",
       href: "http://jekyll.com.cn/"
