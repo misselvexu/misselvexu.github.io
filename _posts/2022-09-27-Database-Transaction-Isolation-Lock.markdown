@@ -2,7 +2,7 @@
 layout:     post
 title:      "[Database] Lock & Isolation & Transaction For MySQL"
 subtitle:   "9 types of locks, 3 types of reads, 4 isolation levels"
-date:       2022-09-28 02:59:59
+date:       2022-09-27 02:59:59
 author:     "Palmer Xu"
 header-img: "img/in-post/ssr-bg.jpg"
 catalog: true
